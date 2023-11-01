@@ -4,31 +4,33 @@
 }
 
 .header {
-    background-color: brown;
+    background-color: #363062;
     display: flex;
     justify-content: space-between;
     padding: 10px 15px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    color: #ffffff;
 }
 
 .footer {
-    background-color: brown;
+    background-color: #363062;
     text-align: center;
     padding: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    color: #ffffff;
 }
 
 .call-to-action {
-    background-color: greenyellow;
+    background-color: #4D4C7D;
     display: flex;
     justify-content: center;
     padding: 40px;
 }
 
 .container {
-    background-color: blue;
+    background-color: #F99417;
     padding: 30px;
     display: flex;
     justify-content: center;
@@ -39,7 +41,7 @@
 
 a {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
 }
 
 .welcome {
@@ -47,15 +49,16 @@ a {
     align-items: center;
     justify-content: center;
     padding: 40px 15px;
-    background-color: aqua;
+    background-color: #363062;
     gap: 40px;
+    color: #ffffff;
 }
 
 .projects {
     display: flex;
     flex-direction: column;
     padding: 20px 80px 40px;
-    background-color: cadetblue;
+    background-color: #4D4C7D;
 }
 
 .heading-project {
@@ -63,16 +66,18 @@ a {
     font-weight: bold;
     text-align: center;
     padding: 20px;
+    color: #ffffff;
 }
 
 .project-overview {
     display: flex;
     justify-content: center;
     gap: 40px;
+    color: #ffffff;
 }
 
 .quote {
-    background-color: coral;
+    background-color: #4D4C7D;
     display: flex;
     flex-direction: column;
     padding: 20px 80px;
@@ -84,6 +89,9 @@ a {
     max-width: 500px;
     display: flex;
     flex-direction: column;
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .author {

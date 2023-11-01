@@ -1,0 +1,115 @@
+.content {
+    max-width: 960px;
+    margin: auto;
+}
+
+.header {
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.footer {
+    background-color: brown;
+    text-align: center;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.call-to-action {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    background-color: blue;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 15px;
+    background-color: aqua;
+    gap: 40px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 80px 40px;
+    background-color: cadetblue;
+}
+
+.heading-project {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.project-overview {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.quote {
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+}
+
+.quote-container {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.placeholder-img {
+    width: 200px;
+    height: 150px;
+    background-color: grey;
+}
+
+.placeholder-img-small {
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+}
+
+.project-description {
+    max-width: 100px;
+}
+
